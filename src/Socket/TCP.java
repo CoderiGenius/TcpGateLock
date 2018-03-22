@@ -14,21 +14,13 @@ public class TCP {
         //ConnectThread connectSocket = new ConnectThread();
         AcceptTcp acceptTcp = new AcceptTcp();
         //Socket.StartSocket startSocket = new StartSocket();
-<<<<<<< HEAD
 
-=======
-       
->>>>>>> b9cb17f8ca76f01ebf10c9891a917a4cbb291c1f
 
         //启动服务端监听
         try {
             //启动监听
             acceptTcp.run();
-<<<<<<< HEAD
 
-=======
-          
->>>>>>> b9cb17f8ca76f01ebf10c9891a917a4cbb291c1f
 
 
         }catch(Exception e){
