@@ -1,8 +1,6 @@
 package ConnectionUtil;
 import java.io.IOException;
 
-import Socket.StartSocket;
-
 public class DetectThread extends Thread{
 	public static String statusOfSocket = null;
 	public void run(){
