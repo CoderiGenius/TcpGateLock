@@ -8,3 +8,11 @@
 2018-03-22 18:17:00  [ Thread-0:40977 ] - [ INFO ]  Listening socket acception
 2018-03-22 18:17:00  [ main:40979 ] - [ INFO ]  Message from client：用户名：admin；密码：123用户名：dmin；密码：23
 2018-03-22 18:17:00  [ main:40981 ] - [ INFO ]  Sending message to client,content:ok
+2018-03-22 21:11:42  [ main:0 ] - [ INFO ]  Start listening socket acception
+2018-03-22 21:12:56  [ main:0 ] - [ INFO ]  Start listening socket acception
+2018-03-22 21:13:47  [ main:0 ] - [ INFO ]  Start listening socket acception
+2018-03-22 21:13:50  [ main:3497 ] - [ INFO ]  Got socket connection,INFO：null
+2018-03-22 21:13:50  [ main:3498 ] - [ INFO ]  Start listening socket acception
+2018-03-22 21:14:22  [ main:0 ] - [ INFO ]  Start listening socket acception
+2018-03-22 21:19:31  [ main:308170 ] - [ INFO ]  Got socket connection,INFO：Socket[addr=/192.168.0.57,port=52734,localport=1027]
+2018-03-22 21:19:31  [ main:308171 ] - [ INFO ]  Start listening socket acception

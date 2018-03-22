@@ -8,6 +8,7 @@ import java.net.Socket;
 
 /**
  * 获得已连接的socket，等待传输开门命令
+ * 已废弃
  */
 
 public class StartSocket extends Thread {

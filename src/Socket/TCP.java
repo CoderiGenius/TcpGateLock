@@ -13,15 +13,15 @@ public class TCP {
     public static void startTCP(){
         //ConnectThread connectSocket = new ConnectThread();
         AcceptTcp acceptTcp = new AcceptTcp();
-        Socket.StartSocket startSocket = new StartSocket();
+        //Socket.StartSocket startSocket = new StartSocket();
         System.out.println("Starting server...running in background");
 
         //启动服务端监听
         try {
             //启动监听
-            acceptTcp.start();
+            acceptTcp.run();
             //启动TCP处理主线程
-            startSocket.run();
+            //startSocket.run();
 
 
         }catch(Exception e){
