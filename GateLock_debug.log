@@ -1,0 +1,10 @@
+2018-03-22 18:16:19  [ Thread-0:0 ] - [ INFO ]  Listening socket acception
+2018-03-22 18:16:19  [ main:0 ] - [ INFO ]  Started serverSocket successfully
+2018-03-22 18:16:36  [ Thread-0:16445 ] - [ INFO ]  Got socket connection,INFO：Socket[addr=/192.168.0.57,port=50994,localport=1027]
+2018-03-22 18:16:36  [ Thread-0:16446 ] - [ INFO ]  Listening socket acception
+2018-03-22 18:16:36  [ main:17011 ] - [ INFO ]  Message from client：用户名：admin；密码：123用户名：dmin；密码：23
+2018-03-22 18:16:36  [ main:17012 ] - [ INFO ]  Sending message to client,content:ok
+2018-03-22 18:17:00  [ Thread-0:40976 ] - [ INFO ]  Got socket connection,INFO：Socket[addr=/192.168.0.57,port=51002,localport=1027]
+2018-03-22 18:17:00  [ Thread-0:40977 ] - [ INFO ]  Listening socket acception
+2018-03-22 18:17:00  [ main:40979 ] - [ INFO ]  Message from client：用户名：admin；密码：123用户名：dmin；密码：23
+2018-03-22 18:17:00  [ main:40981 ] - [ INFO ]  Sending message to client,content:ok
