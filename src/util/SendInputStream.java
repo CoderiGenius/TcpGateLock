@@ -6,6 +6,9 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
 
+/**
+ * 通过传入socket 的inputstream获取TCP连接传来的内容
+ */
 public class SendInputStream {
 
     public static String senInputStream(InputStream inputStream) {

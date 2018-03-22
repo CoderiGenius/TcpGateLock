@@ -26,8 +26,10 @@ public class AcceptTcp extends Thread
 
         while (true) {
             TCP.logger1.info("Start listening socket acception");
+            //开始accept
             socket = serverSocket.accept();
             TCP.logger1.info("Got socket connection,INFO："+ socket);
+            //新开线程保存socket并获取iostream
             SetSocket setSocket = new SetSocket(socket);
             setSocket.start();
            // StartSocket.SendMsg("123");

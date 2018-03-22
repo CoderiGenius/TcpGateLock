@@ -13,6 +13,7 @@ public class SetSocket extends Thread{
     }
     public void run(){
         try{
+            //获取iostream
         inputStream = socket.getInputStream();
         outputStream = socket.getOutputStream();
     }catch (Exception e){
